@@ -16,6 +16,9 @@ class MinHeap:
 		heapify(l)
 		self.heap = list(l)
 
+	def __str__(self):
+		return "hii"
+
 	def parent(self, i): 
 		return (i-1)/2
 	

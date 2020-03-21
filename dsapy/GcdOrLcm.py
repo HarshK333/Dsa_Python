@@ -8,4 +8,4 @@ def gcd(a,b):
   
 # Function to return LCM of two numbers 
 def lcm(a,b): 
-    return (a*b) // gcd(a,b) 
+    return ((a*b) // gcd(a,b))
